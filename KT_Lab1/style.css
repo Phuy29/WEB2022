@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Anton", sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 86px;
+}
+
+.menu {
+  display: flex;
+  gap: 32px;
+}
+.menu-item {
+  list-style-type: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.menu-link {
+  text-decoration: none;
+  color: #000;
+}
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 28px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.news {
+  margin-top: 64px;
+}
+.news-heading {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 400;
+}
+.news-main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+
+.item-title {
+  margin-top: 16px;
+  color: red;
+  font-size: 16px;
+}
+.item-content {
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.desc {
+  margin-top: 64px;
+}
+.desc img {
+  width: 100%;
+}
+
+footer {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #000;
+}
+
+.copyright {
+  font-size: 20px;
+  margin-left: 16px;
+  color: #fff;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background-color: #fd4756;
+  color: #fff;
+  border-radius: 4px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 740px) {
+  .header-nav {
+    padding: 0 12px;
+  }
+  .header-banner img {
+    width: 100%;
+  }
+
+  .menu {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    bottom: 20px;
+    width: 300px;
+    flex-direction: column;
+    background-color: #ccc;
+    border-radius: 10px;
+    z-index: 9999;
+    transform: translateX(150%);
+    transition: all 0.3s ease-in;
+    gap: 0;
+  }
+  .menu.is-show {
+    transform: translateX(0);
+  }
+  .menu-item {
+    padding: 20px;
+  }
+  .menu-toggle {
+    display: block;
+  }
+
+  .news {
+    text-align: center;
+  }
+  .news-main {
+    display: block;
+  }
+
+  .item {
+    display: block;
+    width: 100%;
+    padding-top: 32px;
+    border-top: 1px solid #ccc;
+    margin-bottom: 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

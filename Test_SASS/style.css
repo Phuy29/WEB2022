@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300;400;500;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  margin-top: 34px;
+  text-align: center;
+}
+.menu-item {
+  display: inline-block;
+  margin-left: 32px;
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+.menu-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.banner {
+  margin-top: 34px;
+}
+
+.heading {
+  margin-top: 34px;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.title {
+  margin-top: 34px;
+  font-size: 20px;
+  color: #c5a0f0;
+  font-weight: 700;
+  text-align: center;
+}
+
+.skin {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skin-main {
+  margin-left: 32px;
+}
+
+.skin-heading {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.desc {
+  margin-top: 60px;
+  padding: 26px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.img-main {
+  margin-top: 85px;
+}
+
+.img-main img {
+  width: 100%;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 40px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

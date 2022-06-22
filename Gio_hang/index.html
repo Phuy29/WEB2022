@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>
+    ĐƠN HÀNG
+  </h1>
+  <label for="fullname">Tên khách hàng</label>
+  <input type="text" name="" id="fullname">
+  <br><br>
+  <label for="phone">Số điện thoại</label>
+  <input type="text" name="" id="phone">
+  <br><br>
+  <table border="1px">
+    <tr>
+      <td>STT</td>
+      <td>Tên sản phẩm</td>
+      <td>Giá</td>
+      <td>Số lượng</td>
+      <td>Thành tiền</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Bánh ngọt phomai </td>
+      <td class="number1">1000</td>
+      <td><input type="number" min="0" onchange="thanhtien(this)"></td>
+      <td class="price"><span></span></td>
+      <td><button>Xóa</button></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Sukem phomai</td>
+      <td class="number2">500</td>
+      <td><input type="number" min="0" onchange="thanhtien(this)"></td>
+      <td class="price"><span></span></td>
+      <td><button>Xóa</button></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Trà sữa</td>
+      <td class="number3">2000</td>
+      <td><input type="number" min="0" onchange="thanhtien(this)"></td>
+      <td class="price"><span></span></td>
+      <td><button>Xóa</button></td>
+    </tr>
+    <tr>
+      <td colspan="4">Tổng</td>
+      <td class="sum"></td>
+      <td></td>
+    </tr>
+  </table>
+  <button class="buy">Đặt mua</button>
+  <script src="index.js"></script>
+</body>
+
+</html>

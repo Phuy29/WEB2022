@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "CHOPS___.TTF";
+  src: url(fonts/CHOPS___.TTF);
+}
+
+@font-face {
+  font-family: "sad films.ttf";
+  src: url(fonts/sad\ films.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.bai2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.heading {
+  text-align: center;
+  font-family: "CHOPS___.TTF";
+  font-size: 80px;
+}
+
+.title {
+  font-family: "sad films.ttf";
+  font-size: 60px;
+}
+
+.bai3 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.margin-right {
+  margin-right: 2%;
+}
+
+.box-left {
+  width: 45%;
+  font-size: 18px;
+  text-align: end;
+  font-weight: 700;
+}
+
+.box-right {
+  width: 53%;
+}
+
+.box-right p {
+  font-size: 100px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
